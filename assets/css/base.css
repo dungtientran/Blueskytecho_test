@@ -1,6 +1,8 @@
 @font-face {
     font-family: General Sans;
     src: url(/assets/font/GeneralSans_Complete/Fonts/WEB/fonts/GeneralSans-Bold.ttf);
+    font-style: normal;
+    font-weight: 500;
 }
 
 html,
@@ -34,25 +36,14 @@ body {
 }
 
 .title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    margin-bottom: 40px;
-}
-
-.title h2 {
     text-align: center;
-    font-weight: 500;
+    margin-bottom: 5px;
     font-size: 36px;
-    color: var(--primary);
 }
-
-.title p {
-    font-weight: 500;
+.sub__title {
+    text-align: center;
+    margin-bottom: 40px;
     font-size: 14px;
-    color: var(--gray);
 }
 
 img {
