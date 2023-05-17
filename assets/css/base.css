@@ -34,7 +34,7 @@ body {
     border: none;
     outline: none;
 }
-
+/* 
 .title {
     display: flex;
     flex-direction: column;
@@ -42,19 +42,20 @@ body {
     justify-content: center;
     gap: 5px;
     margin-bottom: 40px;
-}
+} */
 
-.title p {
+.title {
     text-align: center;
-    font-weight: 500;
     font-size: 36px;
     color: var(--primary);
 }
 
-.title span {
-    font-weight: 500;
+.sub___title {
+    text-align: center;
     font-size: 14px;
     color: var(--gray);
+    margin-top: 5px;
+    margin-bottom: 40px;
 }
 
 img {
