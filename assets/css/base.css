@@ -3,6 +3,7 @@
     src: url(/assets/font/GeneralSans_Complete/Fonts/WEB/fonts/GeneralSans-Medium.ttf);
     font-style: normal;
     font-weight: 500;
+    font-display: swap;
 }
 
 html,
@@ -34,15 +35,6 @@ body {
     border: none;
     outline: none;
 }
-/* 
-.title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    margin-bottom: 40px;
-} */
 
 .title {
     text-align: center;
