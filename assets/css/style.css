@@ -88,7 +88,7 @@
 .header__container .icon ul {
     display: flex;
     align-items: center;
-    gap: 23.4px;
+    gap: 17.4px;
 }
 
 .header__container .icon ul li {
@@ -97,7 +97,13 @@
     align-items: center;
     position: relative;
 }
-
+.header__container .icon ul li a {
+    padding: 6px;
+    border-radius: 50%;
+}
+.header__container .icon ul li a:hover{
+    background: var(--gray-border);
+}
 .header__container .icon ul li span {
     display: flex;
     align-items: center;
@@ -108,8 +114,8 @@
     color: var(--secondary);
     border-radius: 50%;
     position: absolute;
-    top: -50%;
-    right: -50%;
+    top: -3px;
+    right: -3px;
     font-size: 10px;
 }
 
