@@ -56,6 +56,6 @@ img {
     object-fit: cover;
 }
 
-svg {
-    color: aqua;
-}
+svg:hover {
+    fill: red;
+  }
